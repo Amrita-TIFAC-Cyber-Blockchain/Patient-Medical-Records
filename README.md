@@ -1,41 +1,44 @@
 # Medical Record Management based on Distributed Ledger and Storage
 
 ## Abstract 
+Blockchain Technology has seen adoption to infinite domains, health care sector is one of the major domains where there are a greater opportunity and advantage to leverage the benefits of distributed ledgers in storing and securing patient medical records. The Government of India (GoI) is also very keen on digitization in addition to their wider adoption of blockchain technology to serve the citizens by ensuring their privacy and security of personally sensitive information. In this paper, we propose a framework for the secure management of patient medical records (PMR) based on the Ethereum blockchain. The PMR is tokenized using the ERC-721 standard which is a Non-Fungible Token (NFT) that can be uniquely mapped to the individual patient. To ensure a higher level of security and non-redundancy, the medical records are stored and maintained in distributed storage like InterPlanetary File System (IPFS); to ensure privacy, the patient's sensitive information is anonymized through a privacy-preserving scheme. To provide complete control of the medical record to individual patients, we have employed a secret sharing scheme with essential share that is owned by the patient. The proposed framework aims to provide correctness and consistency in managing the PMR over its life cycle.
+
 
 ## Proposed Architecture 
 <p align="center">
-<img src="Assets/System_Architecture/System_Architecture.png" alt="System Architecture" width="400" height="500">
+<img src="Assets/System_Architecture/System_Architecture.png" alt="System Architecture" width="350" height="400">
 </p>
 
 ## Usecases 
-  - Hospital and Doctor Registration
+  - <b>Hospital and Doctor Registration</b>
   
   <p align="center">
   <img src="Assets/Usecases/Hospital_and_Doctor_Registration.png" alt="Hospital and Doctor Registration" width="500" height="400">
   </p>
   
-  - Patient Registration
+  - <b>Patient Registration</b>
   
   <p align="center">
   <img src="Assets/Usecases/Patient_Registration.png" alt="Patient Registration" width="550" height="350">
   </p>
   
-  - Patient Consulting Doctor
+  - <b>Patient Consulting Doctor</b>
   
   <p align="center">
+  <img src="Assets/Usecases/Patient_Consulting_Medical_Practitioner.png" alt="Patient Consulting Medical Practitioner" width="550" height="350">
   </p>
   
-  - Lab Diagnostics
+  - <b>Lab Diagnostics</b>
   
   <p align="center">
   <img src="Assets/Usecases/Lab_Diagnostics.png" alt="Lab Diagnostics" width="600" height="400">
   </p>
 
 ## Demo
-[Click here](https://amrita-tifac-cyber-blockchain.github.io/Patient-Medical-Records/UI/html/index.html) to access the webpage.
+[Click here](https://amrita-tifac-cyber-blockchain.github.io/Patient-Medical-Records/UI/index.html) to access the webpage.
 
 ## Acknowledgement
-We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore in carrying out this work as part of "Blockchain Technology" Course. 
+We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "18CY712 - Blockchain Technology" Course. 
 
 ## References
  - Ramaguru R, Minu M. Blockchain Terminologies. NamChain Open Initiative Research Lab (2021). https://github.com/NamChain-Open-Initiative-Research-Lab/Blockchain-Terminologies
@@ -56,4 +59,7 @@ We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security
 
  - M. M. Madine et al., "Blockchain for Giving Patients Control Over Their Medical Records," in IEEE Access, vol. 8, pp. 193102-193115, 2020, doi: 10.1109/ACCESS.2020.3032553.
 
+
+## Publication
+[In Progress] Samia Anjum, Ramaguru R., Sethumadhavan M. (2021) Medical Records Management using Distributed Ledger and Storage. In: Singh M., Gupta P., Tyagi V., Flusser J., Ören T., Kashyap R. (eds) Advances in Computing and Data Sciences. ICACDS 2021. Communications in Computer and Information Science, vol xxxx. Springer, Singapore.
 
