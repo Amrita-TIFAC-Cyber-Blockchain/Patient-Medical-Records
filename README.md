@@ -19,23 +19,23 @@ Blockchain Technology has seen adoption to infinite domains, health care sector 
   - <b>Patient Registration</b>
   
   <p align="center">
-  <img src="Assets/Usecases/Patient_Registration.png" alt="Patient Registration" width="550" height="350">
+  <img src="Assets/Usecases/Patient_Registration.png" alt="Patient Registration" width="500" height="300">
   </p>
   
   - <b>Patient Consulting Doctor</b>
   
   <p align="center">
-  <img src="Assets/Usecases/Patient_Consulting_Medical_Practitioner.png" alt="Patient Consulting Medical Practitioner" width="550" height="350">
+  <img src="Assets/Usecases/Patient_Consulting_Medical_Practitioner.png" alt="Patient Consulting Medical Practitioner" width="500" height="450">
   </p>
   
   - <b>Lab Diagnostics</b>
   
   <p align="center">
-  <img src="Assets/Usecases/Lab_Diagnostics.png" alt="Lab Diagnostics" width="600" height="400">
+  <img src="Assets/Usecases/Lab_Diagnostics.png" alt="Lab Diagnostics" width="500" height="350">
   </p>
 
 ## Demo
-[Click here](https://amrita-tifac-cyber-blockchain.github.io/Patient-Medical-Records/UI/index.html) to access the webpage.
+[Click here](https://amrita-tifac-cyber-blockchain.github.io/Medical-Record-Management-based-on-Distributed-Ledger-and-Storage/UI/index.html) to access the webpage.
 
 ## Acknowledgement
 We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security, Amrita School of Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India in carrying out this work as part of "18CY712 - Blockchain Technology" Course. 
