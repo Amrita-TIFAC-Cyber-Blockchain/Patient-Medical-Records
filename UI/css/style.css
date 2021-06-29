@@ -1,0 +1,316 @@
+/*
+	Awesome Responsive Template
+	templatestock.co
+*/
+
+
+/* Typography CSS */
+
+body
+{
+	font-family: 'Roboto' !important;
+	overflow-x: hidden;
+}
+
+.main_heading {
+    margin: 50px 0px;
+}
+
+.main_heading h2
+{
+	font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    color: #777;
+}
+
+.underline
+{
+    display: inline-block;
+    width: 160px;
+    height: 2px;
+    background-color: #176080;
+}
+
+/* Header CSS */
+
+.header-div
+{
+	height: 450px;
+    background-color: #176080;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li:nth-last-child(1) a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 0px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+/* Features CSS */
+.features-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.features-div:hover
+{
+	margin-top: -10px;
+}
+
+.more-features-div-icon {
+    float: center;
+    width: 60px;
+    height: 60px;
+    padding-top: 6px;
+    background: #65CD00;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    line-height: 45px;
+    text-align: center;
+}
+
+
+
+.features-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.features-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    padding: 40px 0 35px 0;
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.footer-social  a
+{
+    color: #878787;
+}
+
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+
+/* Header CSS */
+
+.header-div
+{
+	height: 275px;
+    background-color: #176080;
+}
+
+.logo-div a
+{
+    color: #fff !important;
+    font-size: 28px;
+    margin-top: 5px;
+}
+
+.navbar-nav li a
+{
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-right-menu-ul
+{
+	margin-top: 10px;
+}
+
+.slide-text
+{
+	color: #fff;
+	margin-top: 0px;
+}
+
+.slide-text h1
+{
+    line-height: 60px;
+    font-size: 60px;
+    margin-bottom: 18px;
+}
+
+.slide-text p
+{
+	font-size: 17px;
+}
+
+
+/* Features CSS */
+.features-div
+{
+	text-align: center;
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    -ms-transition: all .15s linear;
+    -o-transition: all .15s linear;
+    transition: all .15s linear;
+}
+.col-md-3 
+{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.col-md-4
+{
+	margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+
+.features-div:hover
+{
+	margin-top: 0px;
+}
+
+
+.features-div h4
+{
+    color: #393939;
+    font-weight: 400;
+}
+
+.features-div p
+{
+    color: #636363;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+}
+.form {
+  text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 40px 0 35px 0;
+    text-align: center;    
+    margin-bottom: 10px;
+}
+
+.footer-social {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.footer-social  a
+{
+    color: #000000;
+}
+
+
+
+/* Bootstrap CSS */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav li a
+{
+	color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+}

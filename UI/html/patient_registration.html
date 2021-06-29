@@ -1,0 +1,401 @@
+<html>
+<head>
+<title>Register Patient</title>
+<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+	<!-- Goggle Font -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+
+	<!-- Font Css -->
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+	<!-- Animation Css -->
+	<link rel="stylesheet" href="../css/animate.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+    <body>
+	<p><a href="hospital.html"><button type="submit" class="hidden" style='margin-right:16px'>Hospital Registration</button></a><a href="doctor.html"><button type="submit" class="hidden" style='margin-right:16px'>Doctor Registration</button></a><a href="patient_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Details</button></a><a href="record_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Medical Record</button></a><a href="examine_details.html"><button type="submit" class="hidden" style='margin-right:16px'>View Patient Examine details</button></a></p>
+      
+         <!-- Header -->
+<div class="header-div">
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header logo-div bounceInLeft wow" data-wow-duration="2s">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse top-right-menu-ul bounceInRight wow" id="bs-example-navbar-collapse-1" data-wow-duration="4s">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Home</a></li>
+		<li><a href="hospital_homepage.html">Hospital Homepage</a></li>
+      </ul>
+    </div><!-- End navbar-collapse -->
+  </div><!-- End container -->
+</nav>
+
+<div class="container wow bounceInDown" data-wow-duration="5s">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8 text-center slide-text">
+			<h1>Patient Registration</h1>
+			
+		</div><!-- End col-md-8-->
+		<div class="col-md-offset-2"></div><!-- End col-md-offset-2 -->
+	</div><!-- End Row -->
+</div><!-- End Contanier -->
+
+</div><!-- End header-div -->
+<div class="container" id="features">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="main_heading">
+				<div  class="text-center"><span class="underline"></span></div>
+			</div>
+		</div><!-- End col-md-12 -->
+	</div><!-- End row -->
+        <script src="https://cdn.jsdelivr.net/npm/web3@1.2.8/dist/web3.js"></script>
+    <script>	
+	
+	var account;
+	window.addEventListener('load', async () => {
+
+	
+		if (typeof window.ethereum !== 'undefined') { 
+			console.log("MetaMask is Available :) !"); 
+			}
+			
+		// Modern DApp browsers
+		if (window.ethereum) {
+			window.web3 = new Web3(ethereum);
+			
+			// To prevent the page reloading when the MetaMask network changes
+			ethereum.autoRefreshOnNetworkChange = false;
+			
+			// To Capture the account details from MetaMask
+			const accounts = await ethereum.enable();
+			account = accounts[0];
+				
+			}
+		// Legacy DApp browsers
+		else if (window.web3) {
+			//window.web3 = new Web3(web3.currentProvider);
+			window.web3 = new Web3(new Web3.providers.HttpProvider("https://ropsten.infura.io/v3/cbd9dc11b30147e9a2cc974be655ef7c")); 
+			}
+		// Non-DApp browsers
+		else {
+			console.log('Non-Ethereum browser detected. Please install MetaMask');
+			}
+			
+			});
+    	
+        var abi = [
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "patient_id",
+				"type": "uint256"
+			}
+		],
+		"name": "retreive_attendant_details",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "patient_id",
+				"type": "uint256"
+			}
+		],
+		"name": "retreive_patient_details",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "patient_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_attendant_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_attendant_relation",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_attendant_phn_no",
+				"type": "uint256"
+			}
+		],
+		"name": "store_attendant_details",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "patient_id",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_patient_name",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_age",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_gender",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_height",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_weight",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_patient_address",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_phone_no",
+				"type": "uint256"
+			},
+			{
+				"internalType": "string",
+				"name": "_email_id",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_date",
+				"type": "uint256"
+			}
+		],
+		"name": "store_patient_details",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
+        var contractaddress = '0x9125Fd4Ee671F0B53F5b145efE6101A0B7Aa1bfB';
+        
+        function add_details() {
+            var myContract = new web3.eth.Contract(abi,contractaddress, {from: account, gasPrice: '5000000', gas: '5000000'});
+			var ds1 = document.getElementById("age").value;
+			var ds2 = document.getElementById("gen").value;
+			var ds3 = document.getElementById("hght").value;
+			var ds4 = document.getElementById("weig").value;
+			var ds5 = document.getElementById("addr").value;
+			var ds6 = document.getElementById("pno").value;
+			var ds7 = document.getElementById("email").value;
+			var ds8 = document.getElementById("date").value;
+            var tname = document.getElementById("name1").value;
+            var id = document.getElementById("id1").value;
+			var ads1 = document.getElementById("rel").value;
+			var ads2 = document.getElementById("apno").value;
+			var aname = document.getElementById("aname1").value;
+			var aid = document.getElementById("id2").value;
+             var result = myContract.methods.store_patient_details(id,tname,ds1,ds2,ds3,ds4,ds5,ds6,ds7,ds8).send(function (err, result) {
+               
+                if (err) { console.log(err); }
+               
+                });
+        
+			
+             var result = myContract.methods.store_attendant_details(aid,aname,ads1,ads2).send(function (err, result) {
+               
+                if (err) { console.log(err); }
+               
+                });
+        }
+		
+		
+        </script>
+
+       <center>
+        <h2>Register Patient</h2>
+    <form>
+		<table style="width:40%"> 
+            <tr>
+			<td>Enter Patient Id:</td>
+			<td><input type="text" id="id1" name="id1"></td>
+		  </tr>
+            <tr>
+			<td> Patient Name:</td>
+			<td><input type="text" id="name1" name="name1"></td>
+		  </tr>
+		  <tr>
+			<td>Age:</td>
+			<td><input type="text" id="age" name="age"></td>
+		  </tr>
+		   
+		   <tr>
+			<td>Gender:</td>
+			<td><input type="text" id="gen" name="gen"></td>
+		  </tr>
+            <tr>
+			<td>Height(in ft):</td>
+			<td><input type="text" id="hght" name="hght"></td>
+		  </tr>
+		  <tr>
+			<td>Weight(in kg):</td>
+			<td><input type="text" id="weig" name="weig"></td>
+		  </tr>
+		  <tr>
+			<td>Address:</td>
+			<td><input type="text" id="addr" name="addr"></td>
+		  </tr>
+		  <tr>
+			<td>Phone Number:</td>
+			<td><input type="text" id="pno" name="pno"></td>
+		  </tr>
+		  <tr>
+			<td>Email Id:</td>
+			<td><input type="text" id="email" name="email"></td>
+		  </tr>
+		  <tr>
+			<td>Date:</td>
+			<td><input type="text" id="date" name="date"></td>
+		  </tr>
+          		 
+		</table>
+		
+	</form>
+	<h2> Patient's Attendant Details</h2>
+    <form>
+		<table style="width:40%"> 
+            <tr>
+			<td>Enter Patient Id:</td>
+			<td><input type="text" id="id2" name="id2"></td>
+		  </tr>
+            <tr>
+			<td> Attendant Name:</td>
+			<td><input type="text" id="aname1" name="aname1"></td>
+		  </tr>
+		  <tr>
+			<td>Attendant Relation:</td>
+			<td><input type="text" id="rel" name="rel"></td>
+		  </tr>
+		   
+		   <tr>
+			<td>Phone Number:</td>
+			<td><input type="text" id="apno" name="apno"></td>
+		  </tr>
+                      
+		</table>
+		</form>
+		  <form>
+		<table style="width:25%">
+		  <tr>
+			<td><input type="button" onclick="add_details()" value="Register"></td>
+		  </tr>
+		  </table>
+		</form>
+		</center>
+	
+    </body>
+</html>
