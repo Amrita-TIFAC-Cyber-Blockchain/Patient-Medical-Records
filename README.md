@@ -43,13 +43,13 @@ We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security
 ## References
  - Ramaguru R, Minu M. Blockchain Terminologies. NamChain Open Initiative Research Lab (2021). https://github.com/NamChain-Open-Initiative-Research-Lab/Blockchain-Terminologies
 
- - Samal D., Arul R. (2020) A Novel Privacy Preservation Scheme for Internet of Things Using Blockchain Strategy. In: Bindhu V., Chen J., Tavares J. (eds) International Conference on Communication, Computing and Electronics Systems. Lecture Notes in Electrical Engineering, vol 637. Springer, Singapore. https://doi.org/10.1007/978-981-15-2612-1\_66
+ - Samal D., Arul R. (2020) A Novel Privacy Preservation Scheme for Internet of Things Using Blockchain Strategy. In: Bindhu V., Chen J., Tavares J. (eds) International Conference on Communication, Computing and Electronics Systems. Lecture Notes in Electrical Engineering, vol 637. Springer, Singapore. https://doi.org/10.1007/978-981-15-2612-1_66
 
- - Kripa M., Nidhin Mahesh A., Ramaguru R., Amritha P.P. (2021) Blockchain Framework for Social Media DRM Based on Secret Sharing. In: Senjyu T., Mahalle P.N., Perumal T., Joshi A. (eds) Information and Communication Technology for Intelligent Systems. ICTIS 2020. Smart Innovation, Systems and Technologies, vol 195. Springer, Singapore. https://doi.org/10.1007/978-981-15-7078-0\_43
+ - Kripa M., Nidhin Mahesh A., Ramaguru R., Amritha P.P. (2021) Blockchain Framework for Social Media DRM Based on Secret Sharing. In: Senjyu T., Mahalle P.N., Perumal T., Joshi A. (eds) Information and Communication Technology for Intelligent Systems. ICTIS 2020. Smart Innovation, Systems and Technologies, vol 195. Springer, Singapore. https://doi.org/10.1007/978-981-15-7078-0_43
 
  - A. Azaria, A. Ekblaw, T. Vieira and A. Lippman, "MedRec: Using Blockchain for Medical Data Access and Permission Management," 2016 2nd International Conference on Open and Big Data (OBD), Vienna, 2016, pp. 25-30, doi: 10.1109/OBD.2016.11.
 
- - Alex Roehrs, Cristiano André da Costa, Rodrigo da Rosa Righi,OmniPHR: A distributed architecture model to integrate personal health records,Journal of Biomedical Informatics,Volume 71,2017,Pages 70-81,ISSN 1532-0464, https://doi.org/10.1016/j.jbi.2017.05.012..
+ - Alex Roehrs, Cristiano André da Costa, Rodrigo da Rosa Righi,OmniPHR: A distributed architecture model to integrate personal health records,Journal of Biomedical Informatics,Volume 71,2017,Pages 70-81,ISSN 1532-0464, https://doi.org/10.1016/j.jbi.2017.05.012.
 
  - Gaby G. Dagher, Jordan Mohler, Matea Milojkovic, Praneeth Babu Marella, Ancile: Privacy-preserving framework for access control and interoperability of electronic health records using blockchain technology,Sustainable Cities and Society, Volume 39,2018,Pages 283-297,ISSN 2210-6707, https://doi.org/10.1016/j.scs.2018.02.014.
 
@@ -61,5 +61,5 @@ We would like to acknowldge the support provided by TIFAC-CORE in Cyber Security
 
 
 ## Publication
-[In Progress] Samia Anjum, Ramaguru R., Sethumadhavan M. (2021) Medical Records Management using Distributed Ledger and Storage. In: Singh M., Gupta P., Tyagi V., Flusser J., Ören T., Kashyap R. (eds) Advances in Computing and Data Sciences. ICACDS 2021. Communications in Computer and Information Science, vol xxxx. Springer, Singapore.
+Anjum S., Ramaguru R., Sethumadhavan M. (2021) Medical Records Management Using Distributed Ledger and Storage. In: Singh M., Tyagi V., Gupta P.K., Flusser J., Ören T., Sonawane V.R. (eds) Advances in Computing and Data Sciences. ICACDS 2021. Communications in Computer and Information Science, vol 1441. Springer, Cham. https://doi.org/10.1007/978-3-030-88244-0_6
 
