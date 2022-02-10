@@ -1,4 +1,4 @@
-# Medical Record Management based on Distributed Ledger and Storage
+# Medical Record Management based on Distributed Ledger and Storage ![](https://img.shields.io/badge/-Completed-darkgreen)
 ![](https://img.shields.io/badge/Batch-19CYS-green) ![](https://img.shields.io/badge/BlockchainCourse-18CY712-green) ![](https://img.shields.io/badge/Focus-HealthCare-yellow) ![](https://img.shields.io/badge/AmritaBlockchain-Completed-brightgreen) ![](https://img.shields.io/badge/Publication-Springer-brightgreen) <br/>
 ![](https://img.shields.io/badge/Blockchain-Ethereum-blue) ![](https://img.shields.io/badge/NFT-ERC721-blue) ![](https://img.shields.io/badge/Storage-IPFS-blue) ![](https://img.shields.io/badge/Security-SecretSharing-blue)
 
